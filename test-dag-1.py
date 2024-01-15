@@ -10,8 +10,8 @@ from airflow.operators.python_operator import PythonOperator
 
 # initializing the default arguments
 default_args = {
-		'owner': 'Ranga',
-		'start_date': datetime(2022, 3, 4),
+		'owner': 'richard',
+		'start_date': datetime(2024, 1, 5),
 		'retries': 3,
 		'retry_delay': timedelta(minutes=5)
 }
