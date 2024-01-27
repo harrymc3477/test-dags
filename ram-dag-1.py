@@ -18,7 +18,7 @@ default_args = {
 }
 
 # Instantiate a DAG object
-hello_world_dag = DAG('hello_world_dag',
+hello_world_dag = DAG('hello_world_dag_V1',
 		default_args=default_args,
 		description='Hello World DAG',
 		schedule_interval='*/15 * * * *', 
