@@ -1,4 +1,4 @@
-"""DAG demonstrating the umbrella use case with dummy operators. """
+"""DAG demonstrating the umbrella use case with dummy operators."""
 
 import airflow.utils.dates
 from airflow import DAG
